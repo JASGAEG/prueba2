@@ -1,0 +1,222 @@
+body {
+    background: url(https://cdn.pixabay.com/photo/2017/08/06/17/15/leaf-2594322_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100rem 93.75rem;        
+}
+
+.fondo {
+    background-color: white;
+    opacity: 70%;
+}
+
+header {
+    background: white;
+    position: relative;
+    opacity: 80%;
+    width: 100%;
+}
+
+h1 {
+    color: black;
+    border: solid 2px orange;
+}
+
+h2 {
+    color: darkorange;
+    font-style: italic;
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;}
+
+.navegacion {
+    width: 500%;
+    margin: 5px;
+    padding: 2px;
+    position: relative;
+}
+
+.posicioncentro {
+    position: relative;
+    top: -1.25rem;
+    left: 43.75rem;
+}
+
+.imgpadre{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    border: 2px solid white;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.hi {
+    background-color: white;
+}
+
+.imghijo{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: auto;
+    justify-content: center;
+    opacity: 90%;
+}
+
+@media only screen and (min-width: 1024px){
+    #mobile {
+    justify-content: center;
+    background-color: tomato;
+}
+}
+
+@media only screen and (min-width: 320px){
+    #mobile {
+    justify-content: center;
+    background-color: darkgreen;
+    grid-template-rows: 20% auto 80%;
+    grid-template-areas: "nav header header"
+                         "nav section aside"
+                         "nav section aside"
+                         "nav footer footer";   
+}
+}
+
+@media only screen and (min-width: 720px){
+    #mobile {
+    justify-content: center;
+    background-color: aqua;
+    grid-template-rows: 20% auto 80%;
+    grid-template-areas: "nav header header"
+                         "nav section aside"
+                         "nav section aside"
+                         "nav footer footer";   
+}
+}
+
+
+
+@media only screen and (min-width: 1024px){
+
+#gridpadre {
+    justify-content: center;
+    height: 100vh;
+    display: grid;
+    background-color: yellowgreen;
+    grid-template-columns: 100px 1fr 1fr 75px;
+    grid-template-rows: 20% auto 80%;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    margin: 0;
+    grid-template-areas: "nav header header"
+                         "nav section aside"
+                         "nav section aside"
+                         "nav footer footer";    
+}
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+nav {
+    grid-area: nav;
+}
+
+section {
+    grid-area: section;
+}
+
+section {
+    grid-area: section;
+}
+
+aside {
+    grid-area: aside;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.posicionderecha {
+    position: relative;
+    top: -6.875rem;
+    left: 84.375rem;
+}
+
+.menu > li {
+    display: flex;
+    padding: 2px;
+    margin: 1px;
+}
+
+.menu > li> a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    -webkit-text-stroke: 0.4px black;
+    -webkit-text-fill-color: darkorange;
+}
+
+.menu li a:hover{
+    font-style: italic;
+    color: orange;
+    background-color: white;
+    opacity: 80%;
+}
+
+.naranja  {
+    color: orange;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.interlineado {
+    line-height: 0.35rem;
+}
+
+.aladerecha {
+    position: relative;
+    bottom: 20px;
+    left: 1300px;
+}
+
+.izquierda {
+    text-align: left;
+}
+
+.centro {
+    position: relative;
+    top: auto;
+    left: 500px;
+}
+
+.centrar {
+    position: relative;
+    top: auto;
+    left: 290px;
+}
+
+.zoomin:hover {
+    transition: 5s;
+    height: 140px;
+    width: 140px;
+}
+
+.white:hover {
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 50%;
+    transition: 1s;
+    opacity: 90%;
+    height: 260px;
+    width: 310px;
+}

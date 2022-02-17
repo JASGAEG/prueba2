@@ -1,0 +1,17 @@
+.imagen{
+    background-color: none;
+    display: block;
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+    padding: 10px 15px;
+    margin: 2px;
+}
+
+.tiempo:hover {
+    transition: 1s;
+    width: 23%;
+    height: 2%;
+    background-color: white;
+    border: teal;
+}
